@@ -10,13 +10,14 @@ h1{
 }
 section{
     display: flex;
+    padding-bottom: 100px;
 }
 .half-width{
-    width: 50vw;
-    padding: 3%;
+    width: 50%;
+    padding-left: 2%;
 }
 .half-width img{
-    width: 35vw;
+    width: 80%;
 }
 .hire-button{
     text-decoration: none;
@@ -30,3 +31,11 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.dream-big{
+        background-image: url(images/dream-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+}
+p{
+    padding-right: 300px;
+}    
